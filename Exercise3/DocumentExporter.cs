@@ -2,10 +2,8 @@
 
 namespace SquareVSRectangle.Exercise3
 {
-    class DocumentExporter
+    class DocumentExporter : IPDFExportable
     {
         public virtual void ExportToPDF() => Console.WriteLine("Export to PDF...");
-
-
     }
 }

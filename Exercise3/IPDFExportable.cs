@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SquareVSRectangle.Exercise3
 {
-    internal interface IPDFExportable
+    interface IPDFExportable
     {
+        void ExportToPDF();
     }
 }

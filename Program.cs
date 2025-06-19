@@ -17,7 +17,7 @@ namespace SquareVSRectangle
             }
             DocumentExporter d = new DocumentExporter();
             OnleneExporter o = new OnleneExporter();
-            exportDocument(o);
+            exportDocument(d);
         }
     }
 }

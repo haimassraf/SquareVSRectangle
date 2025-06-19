@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SquareVSRectangle.Exercise3
 {
-    class OnleneExporter : IHTMLExportable
+    interface IHTMLExportable
     {
-        public void OnlineExport()
-        {
-            Console.WriteLine("Online export...");
-        }
+        void OnlineExport();
     }
 }
