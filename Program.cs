@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SquareVSRectangle.Exercise3;
 
 namespace SquareVSRectangle
 {
@@ -10,12 +11,13 @@ namespace SquareVSRectangle
     {
         static void Main(string[] args)
         {
-            double testArea(Rectangle shape)
+            void exportDocument(DocumentExporter exporter)
             {
-                return shape.Area();
+                exporter.ExportToPDF();
             }
-            Rectangle r = new Rectangle(3.4, 3);
-            Square s = new Square(5.3);
+            DocumentExporter d = new DocumentExporter();
+            OnleneExporter o = new OnleneExporter();
+            exportDocument(o);
         }
     }
 }

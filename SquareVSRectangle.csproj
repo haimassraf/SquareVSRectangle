@@ -43,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercise3\DocumentExporter.cs" />
+    <Compile Include="Exercise3\IPDFExportable.cs" />
+    <Compile Include="Exercise3\OnleneExporter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
-    <Compile Include="Square.cs" />
+    <Compile Include="SquareVSRectangle\Rectangle.cs" />
+    <Compile Include="SquareVSRectangle\Square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
